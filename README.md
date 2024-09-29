@@ -19,6 +19,8 @@ Built using Unity 2022.3.45f1
  * [Open Color open source color scheme](https://yeun.github.io/open-color/)
  * [League Gothic Typeface](https://www.theleagueofmoveabletype.com/league-gothic)
  * [Orbitron Typeface](https://www.theleagueofmoveabletype.com/orbitron)
+ * [Upheaval Typeface](https://www.dafont.com/upheaval.font)
+ * [Pattern Pixel Pack, provided by kenney.nl](https://kenney.nl/assets/pattern-pack-pixel)
  
 
 ## Future Development
@@ -27,4 +29,4 @@ Tweening, Screen Shake, Adding a face, Comet trail, Music and Sound, Shaders, et
 
 ## Created by 
 
-Nathan Mishler
+Ian Weaver (Skadeddi)
