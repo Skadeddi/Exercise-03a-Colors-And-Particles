@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -139,6 +138,7 @@ GameObject:
   - component: {fileID: 68157376}
   - component: {fileID: 68157378}
   - component: {fileID: 68157377}
+  - component: {fileID: 68157379}
   m_Layer: 0
   m_Name: Top Wall
   m_TagString: Untagged
@@ -258,6 +258,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &68157379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68157375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a826414ebe47c7d4d8d620704c0b67ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &137548806 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6134185372281058416, guid: 47699b366ef5cb24ba6553df86c3627f, type: 3}
@@ -574,6 +586,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47699b366ef5cb24ba6553df86c3627f, type: 3}
+--- !u!1 &238778720 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3418284614095794301, guid: 94be2f8010aaaf84d97a9ce94be2c0d1, type: 3}
+  m_PrefabInstance: {fileID: 6526775473133394293}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &240730797 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6134185372281058416, guid: 47699b366ef5cb24ba6553df86c3627f, type: 3}
@@ -760,6 +777,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6134185372281058416, guid: 47699b366ef5cb24ba6553df86c3627f, type: 3}
   m_PrefabInstance: {fileID: 1232123233}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &406307086 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4650596125386521317, guid: 94be2f8010aaaf84d97a9ce94be2c0d1, type: 3}
+  m_PrefabInstance: {fileID: 6526775473133394293}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &406307092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406307086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35cde2cfe3a930049bb5d3724b70797e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballImage: {fileID: 238778720}
 --- !u!1001 &422339302
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1416,15 +1451,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Blocks: 0'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 941c651a1a8cacc469c3d4c66f905fe1, type: 2}
+  m_sharedMaterial: {fileID: 4466528555075981059, guid: 941c651a1a8cacc469c3d4c66f905fe1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4290707711
+  m_fontColor: {r: 1, g: 0, b: 0.7490196, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1821,6 +1856,7 @@ GameObject:
   - component: {fileID: 918601064}
   - component: {fileID: 918601066}
   - component: {fileID: 918601065}
+  - component: {fileID: 918601067}
   m_Layer: 0
   m_Name: Right Wall
   m_TagString: Untagged
@@ -1940,6 +1976,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &918601067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918601063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a826414ebe47c7d4d8d620704c0b67ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &922408177
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2099,15 +2147,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'SCORE: 000000000'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 941c651a1a8cacc469c3d4c66f905fe1, type: 2}
+  m_sharedMaterial: {fileID: 4466528555075981059, guid: 941c651a1a8cacc469c3d4c66f905fe1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4290642175
+  m_fontColor: {r: 1, g: 0, b: 0.746696, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2351,6 +2399,7 @@ GameObject:
   - component: {fileID: 1029065455}
   - component: {fileID: 1029065457}
   - component: {fileID: 1029065456}
+  - component: {fileID: 1029065458}
   m_Layer: 0
   m_Name: Left Wall
   m_TagString: Untagged
@@ -2470,6 +2519,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1029065458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029065454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a826414ebe47c7d4d8d620704c0b67ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1060026689
 GameObject:
   m_ObjectHideFlags: 0
@@ -2841,15 +2902,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Lives: 3'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 941c651a1a8cacc469c3d4c66f905fe1, type: 2}
+  m_sharedMaterial: {fileID: 4466528555075981059, guid: 941c651a1a8cacc469c3d4c66f905fe1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4290707711
+  m_fontColor: {r: 1, g: 0, b: 0.7490196, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4671,6 +4732,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ball
       objectReference: {fileID: 0}
+    - target: {fileID: 4650596125386521317, guid: 94be2f8010aaaf84d97a9ce94be2c0d1, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
     - target: {fileID: 8877229074771934317, guid: 94be2f8010aaaf84d97a9ce94be2c0d1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.02
@@ -4714,7 +4779,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4650596125386521317, guid: 94be2f8010aaaf84d97a9ce94be2c0d1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 406307092}
   m_SourcePrefab: {fileID: 100100000, guid: 94be2f8010aaaf84d97a9ce94be2c0d1, type: 3}
 --- !u!1001 &9048559860384142125
 PrefabInstance:
